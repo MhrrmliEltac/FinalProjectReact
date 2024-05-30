@@ -1,0 +1,40 @@
+.container-box {
+  padding: 5%;
+  .col-paragraph {
+    font-size: 200%;
+    font-weight: bold;
+  }
+  .col {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    overflow: hidden;
+    .column-paragraph {
+      font-size: 150%;
+    }
+    .text {
+      font-size: 150%;
+      padding-left: 5px;
+      font-family: roboto;
+      .text.sec-text:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-left: 2px solid #4070f4;
+        animation: animate 4s steps(12) infinite;
+      }
+      @keyframes animate {
+        40%,
+        60% {
+          left: calc(100% + 4px);
+        }
+        100% {
+          left: 0%;
+        }
+      }
+    }
+  }
+}

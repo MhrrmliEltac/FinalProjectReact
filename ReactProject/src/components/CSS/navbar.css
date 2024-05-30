@@ -1,0 +1,111 @@
+.navbar {
+  background-color: #1b2a87 !important;
+}
+.header {
+  width: 90% !important;
+  padding: 0px !important;
+
+  h1 {
+    color: white;
+  }
+}
+ul li {
+  font-family: roboto;
+}
+ul li:hover {
+  color: #a3a6bb !important;
+}
+
+.sign-btn {
+  position: relative;
+  display: inline-block;
+  padding: 5px 2px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  width: 60%;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #fff;
+  border-radius: 55px;
+  box-shadow: inset 0 0 0 0 #fff;
+}
+
+.sign-btn:hover {
+  color: black;
+  box-shadow: inset 0 -100px 0 0 #fff;
+}
+
+.sign-btn:active {
+  transform: scale(0.9);
+}
+.form {
+  margin-right: -16%;
+  width: 25%;
+}
+.search-btn {
+  width: 100%;
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 0;
+  .search {
+    margin-right: 5px;
+  }
+}
+.profile {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  i {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  p {
+    margin: 0px;
+  }
+  .panel {
+    /* display: none; */
+    position: absolute;
+    top: 45px;
+    margin-top: 10px;
+    width: 150px;
+    height: 100px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    justify-content: space-between;
+    transition: 0.5s all;
+    align-items: center;
+    span {
+      text-align: center;
+      font-family: roboto;
+    }
+    .exit-btn {
+      cursor: pointer;
+      border: none;
+      background-color: red;
+      color: white;
+      border-radius: 10px;
+      width: 50%;
+    }
+  }
+}
+.err-message {
+  display: flex;
+  justify-content: center;
+  background: #a54d4d;
+  /* width: 70%; */
+  margin: 10px 0px;
+  font-family: roboto;
+  p {
+    margin: 0px;
+  }
+}

@@ -1,0 +1,17 @@
+.page-title-about{
+    background-image: url(/about.jpg);
+    padding: 12%;
+    height: 100%;
+    margin-bottom: 10px;
+    background-size: cover;
+    .row{
+        width: 35%;
+        .paragraph-about{
+            color: #B2B4C4;
+        }
+        .heading-about{
+            font-size: 300%;
+            color: white;
+        }
+    }
+}

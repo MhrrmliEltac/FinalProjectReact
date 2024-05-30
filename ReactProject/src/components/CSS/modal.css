@@ -1,0 +1,56 @@
+/* Modal.css */
+.modal-overlay {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8); /* Fully opaque background */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  z-index: 10; /* Ensure it's above other content */
+}
+
+.modal-content {
+  transition: 0.7s all;
+  background: #fff;
+  padding: 5% 10% 10% 10%;
+  height: 250px;
+  /* border-radius: 4px; */
+  position: relative;
+  z-index: 20; /* Ensure it's above the overlay */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  .headingg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 5rem;
+        text-align: center;
+    }
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .search-input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+    width: 60%;
+  }
+}

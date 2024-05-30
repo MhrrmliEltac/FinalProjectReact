@@ -1,0 +1,45 @@
+.services {
+  background-image: url(demo-hosting-home-06.jpg);
+  background-size: cover;
+  padding: 5%;
+  .card {
+    padding: 20% 15% !important;
+    .card-img {
+      width: 40%;
+      height: 70%;
+      margin-bottom: 10%;
+      .inner-img {
+        height: 80%;
+      }
+    }
+    .card-heading {
+      font-size: 170%;
+    }
+    .card-paragraph {
+      width: 80%;
+    }
+    .card-btn {
+      text-decoration: none;
+      border: none;
+      background: transparent;
+      justify-content: flex-start;
+      display: flex;
+      color: #152bca;
+      justify-content: space-between;
+      align-items: center;
+      width: 55%;
+    }
+  }
+  .card-span {
+    font-size: 100%;
+    color: #152bca;
+    font-weight: bold;
+  }
+  .card-h2 {
+    font-size: 4rem;
+  }
+  .card:hover {
+    transition: 0.5s ease-in-out;
+    bottom: 2px;
+  }
+}

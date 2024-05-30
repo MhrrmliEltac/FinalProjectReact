@@ -1,0 +1,153 @@
+footer {
+  padding: 140px 140px 70px 140px;
+  position: relative;
+  height: 100%;
+  .container-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      a {
+        text-decoration: underline;
+        color: white;
+      }
+      width: 70%;
+      color: #80858f;
+      text-align: center;
+    }
+  }
+  .line {
+    /* width: 80%; */
+    margin: 10px 0px;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+  }
+  background-image: url(/demo-hosting-footer-bg.png) !important;
+  background-size: cover;
+  .mycontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .container {
+      justify-content: space-between;
+      padding: 0px;
+      margin: 0px;
+      .company-footer {
+        width: 18%;
+        margin-left: -30px;
+        .company-list {
+          color: #80858f;
+          width: 100%;
+          li {
+            margin: 15px 0px;
+          }
+          li:hover {
+            color: white;
+            transition: 0.5s all;
+            cursor: pointer;
+          }
+        }
+      }
+      .customer-footer {
+        .customer-list {
+          color: #80858f;
+          width: 100%;
+          li {
+            margin: 15px 0px;
+          }
+          li:hover {
+            color: white;
+            transition: 0.5s all;
+            cursor: pointer;
+          }
+        }
+        width: 18%;
+      }
+      .say-footer {
+        .mailto {
+          text-decoration: underline;
+          color: white;
+        }
+        .mailto-paragraph {
+          color: white;
+          margin: -15px 0px 15px 0px;
+        }
+        .sup-footer {
+          color: #80858f;
+          margin: 15px 0px;
+        }
+        .tel {
+          text-decoration: none;
+          color: white;
+          .tel-paragraph {
+            margin: -15px 0px;
+          }
+        }
+        .paragraph-footer {
+          color: #80858f;
+        }
+        width: 17%;
+      }
+      .subscribe-footer {
+        .subs-footer {
+          color: #80858f;
+          margin: 15px 0px 0px 0px;
+        }
+        .email-footer {
+          margin: 25px 0px;
+          width: 100%;
+          background: #262a3e;
+          border: none;
+          outline: none;
+          padding: 10px;
+          border-radius: 5px;
+          color: white;
+        }
+        width: 22%;
+      }
+    }
+    ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      width: 40%;
+      .fb:hover {
+        color: blue;
+        transition: 0.5s all;
+      }
+      .dribble:hover {
+        color: crimson;
+        transition: 0.5s all;
+      }
+      .twitter:hover {
+        color: rgb(65, 172, 208);
+        transition: 0.5s all;
+      }
+      .insta:hover {
+        color: crimson;
+        transition: 0.5s all;
+      }
+    }
+    .info-footer {
+      width: 28%;
+      .info-paragraph {
+        width: 70%;
+      }
+    }
+    .company-footer {
+      width: 30%;
+    }
+  }
+}
+.search-container {
+  position: relative;
+  .email {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+  }
+}

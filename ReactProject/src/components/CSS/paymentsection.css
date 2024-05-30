@@ -1,0 +1,167 @@
+.payment-section {
+  background-image: url(/demo-hosting-home-03.jpg);
+  background-size: cover;
+  .container {
+    p {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      padding: 2% 1% 0% 1%;
+    }
+    .heading-info {
+      background: #0271bc;
+      display: flex;
+      justify-content: space-between;
+      padding: 1%;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      span {
+        margin: 0px;
+        font-family: roboto;
+        /* font-weight: bold; */
+        color: white;
+      }
+      button {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        font-family: roboto;
+        font-weight: bold;
+      }
+    }
+    .information {
+      background: #ffffff;
+      padding: 4% 4%;
+      margin-top: -7px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      .name-domain {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        flex-direction: column;
+        .domain-name {
+          display: flex;
+          padding: 1% 2%;
+          flex-direction: column;
+        }
+        .enter-domain {
+          input {
+            width: 80%;
+          }
+          .search {
+            border: none;
+            background-attachment: gray;
+            color: white;
+            width: 12%;
+            font-family: roboto;
+            border-radius: 5px;
+          }
+        }
+      }
+      .hosting-plan {
+        display: flex;
+        padding: 1% 2%;
+        justify-content: space-between;
+        flex-direction: column;
+        .select-type {
+          padding: 2% 2%;
+          display: flex;
+          justify-content: space-between;
+          width: 70%;
+        }
+      }
+      .billing-info {
+        display: flex;
+        flex-direction: column;
+        padding: 1% 2%;
+        .payment-type {
+          display: flex;
+          padding: 1% 2%;
+          flex-direction: column;
+          .type-head {
+            text-align: center;
+            font-family: roboto;
+            font-weight: bold;
+          }
+          .radio {
+            display: flex;
+            justify-content: space-between;
+            padding: 1% 2%;
+            .card-info {
+              display: flex;
+              .img-card {
+                display: flex;
+                width: 100px;
+              }
+            }
+            .paypal {
+              width: 100px;
+              display: flex;
+            }
+          }
+          .info-card {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+      .order-detail {
+        display: flex;
+        flex-direction: column;
+        padding: 1% 2%;
+      }
+      .privacy {
+        display: flex;
+        flex-direction: column;
+        padding: 1% 2%;
+        .paragraph {
+          display: flex;
+          width: 66%;
+          margin: 30px 0px;
+          justify-content: space-between;
+        }
+      }
+      .check {
+        display: flex;
+        justify-content: center;
+        .check-btn {
+          background: #337ab7;
+          border: none;
+          padding: 1%;
+          border-radius: 10px;
+          color: white;
+          font-family: roboto;
+        }
+      }
+    }
+    .instant {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0px;
+    }
+    .hosting-addons {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0px;
+    }
+    .live-chat {
+      display: flex;
+      margin: 30px 0px;
+      justify-content: space-between;
+    }
+  }
+}
+.error {
+  color: red;
+  margin-left: 10px;
+}

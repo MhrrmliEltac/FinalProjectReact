@@ -1,0 +1,41 @@
+.cover-background {
+  background-image: url(https://craftohtml.themezaa.com/images/demo-hosting-about-02.jpg);
+  padding: 10%;
+  background-size: cover;
+  background-position: center center !important;
+  .video-container {
+    margin: 0px 0px 40px 0px;
+  }
+  .vide-icon-box {
+    z-index: 1;
+    span {
+      display: inline-flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      flex-flow: row wrap;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+  }
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  .video-icon-large .video-icon {
+    width: 85px;
+    height: 85px;
+    font-size: 20px;
+  }
+  .video-icon {
+    position: relative;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}
